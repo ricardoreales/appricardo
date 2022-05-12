@@ -1,15 +1,19 @@
-function NavBar() {
-    return<>
-        <img src="#"></img>
-        <button>inicio</button>
-        <h1>autos</h1>
-        <h1>motos</h1>
-        <h1>bicicletas</h1>
-        <button>inicio</button>
+import './NavBar.css'  
+import CarWidget from '../CarWidget/CarWidget' 
 
-
-
-    </>
+const NavBar = () => {
+    return (
+        <nav className='title'>
+            <h1>SHOP-TECNOLOGY</h1>
+            <div className='list_container'>
+                <button className='button_style'>celulares</button>
+                <button className='button_style'>tablets</button>
+                <button className='button_style'>notebook</button>
+                <CarWidget/>
+            </div>
+            
+        </nav>
+    )
 }
 
 export default NavBar

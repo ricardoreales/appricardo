@@ -1,0 +1,31 @@
+.title {
+    color: white;
+}
+
+.list_container {
+    display: flex;
+    width: 100vw;
+    border: 1px solid red;
+    height: 3rem;
+    justify-content: center;
+}
+
+.button_style {
+    background-image: linear-gradient(-180deg, #0c98be, #043f5c);
+    color: white;
+    padding: 0 50px 0 50px;
+    border: none;
+    border-right: 1px solid aqua;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.button_style:hover{
+    background-image: linear-gradient(-180deg, #043f5c, #0c98be);
+  
+}
+

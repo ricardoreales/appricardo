@@ -1,0 +1,10 @@
+.CarWidget_style {
+    display: flex;
+    background-image: linear-gradient(-180deg, #0c98be, #043f5c);
+    padding: 0 50px 0 50px;
+}
+
+.CarWidget_style:hover{
+    background-image: linear-gradient(-180deg, #043f5c, #0c98be);
+  
+}
