@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import ItenListContainer from './components/ItenListContainer/ItenListContainer';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemCount from './components/ItemCount/ItemCount';
 
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <NavBar />
-      <ItenListContainer saludo="Muchas gracias por visitarnos" colorText="white" size="5rem"/>
+      <ItemListContainer saludo="Muchas gracias por visitarnos" colorText="white" size="5rem"/>
       <ItemCount/>
       </header>
     </div>
